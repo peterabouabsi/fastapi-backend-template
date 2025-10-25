@@ -1,0 +1,24 @@
+fastapi==0.116.1 # this will install fastapi framework
+uvicorn[standard]==0.35.0 # this will install uvicorn for fastapi (includes websocket, ...)
+pydantic[email]==2.11.7 # this will install pydantic + email validator
+
+# Hashing
+passlib==1.7.4 # this will install passlib
+bcrypt==4.0.1 # this will install bcrypt for hashing
+
+# ORM
+sqlalchemy==2.0.41 # this will install sqlalchemy
+
+# Postgresql + Async dependencies
+asyncpg==0.30.0 # this will install asyncpg for postgresql databaseQ
+psycopg2-binary==2.9.10 # this will install psycopg2 for postgresql database (it uses synchronous version used in migration only)
+
+# AWS Services
+boto3==1.40.18 # this will install boto3 for aws services
+
+# Environment Variables
+pydantic-settings==2.10.1 # this will install pydantic-settings for environment variables
+
+# JWT, JWE, JWS, JWK
+python-jose==3.5.0 # this will install python-jose for jwt, jwe, jws
+cryptography==45.0.5 # this will install cryptography
